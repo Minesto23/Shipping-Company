@@ -27,11 +27,8 @@ public class Methods {
 	public static int[] Calculate_shipping(int [] items) {
 		
 		int [] result = new int[3];
-		double total_volume = Item.TotalVolume(items);
-		double total_weight = Item.TotalWeight(items);
 		
-		
-		result = Container.best_shipping(total_volume, total_weight);
+		result = Container.best_shipping(Item.TotalVolume(items), Item.TotalWeight(items));
 		
 		
 		return result;
