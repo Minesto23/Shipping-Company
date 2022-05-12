@@ -73,7 +73,7 @@ public class Methods {
 		nice_line();
 		System.out.println("\nSo your best shipping option is: ");
 		System.out.println(result[0] + " Small container(s) and " + result[1] + " Big container(s).");
-		System.out.println("For the price of " + result[2] + ".00 €");
+		System.out.println("For the price of " + result[2] + ".00 euros");
 		System.out.println("\nThank you for used our service.");
 		System.out.println("\n\nMade by: Miguel Morales");
 	}
